@@ -1,11 +1,11 @@
 # SpCode-CNN
-## The python code of  "Sparse Coding-Based Convolutional Neural Network for Image Super-Resolution"
+The python code of  "Sparse Coding-Based Convolutional Neural Network for Image Super-Resolution"
 
-## Created on Thu Mar 25 20:14:42 2021
+### Created on Thu Mar 25 20:14:42 2021
 
-## @author: 西电博巍(Bowei Wang, QQ: 月光下的云海)
+### @author: 西电博巍(Bowei Wang, QQ: 月光下的云海)
 
-## Version: Ultimate
+### Version: Ultimate
 
 ## usage
 Tensorflow-GPU == 1.14.0 and python == 3.8.5
@@ -16,7 +16,9 @@ The weight file has been uploaded to https://pan.baidu.com/s/1faKxSpFlRQKqqU0fUW
 ## Instructions for use
 ### 1. Use pre-trained weights
 Download weight file, put in TRAINED_MODEL, run test.py, enter
-```python test.py --which_model SpCode-VDSR --up_scale 4 --file_name ./DATABASE/Set5/woman_GT.bmp ```
+```
+python test.py --which_model SpCode-VDSR --up_scale 4 --file_name ./DATABASE/Set5/woman_GT.bmp 
+```
 
 ### 2. Use self-trained weights
 If you need to configure parameters, modify config.json
