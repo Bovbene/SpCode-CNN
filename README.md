@@ -1,5 +1,5 @@
 # SpCode-CNN
-The python code of  "Sparse Coding-Based Convolutional Neural Network for Image Super-Resolution"
+# The python code of  "Sparse Coding-Based Convolutional Neural Network for Image Super-Resolution"
 
 ### Created on Thu Mar 25 20:14:42 2021
 
